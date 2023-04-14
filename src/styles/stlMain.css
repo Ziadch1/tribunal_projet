@@ -1,0 +1,72 @@
+
+.image-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 70px;
+}
+
+.image-preview-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 65%;
+  border: 1px solid black;
+  margin-right: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: scroll;
+}
+
+.image-preview-container img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.zoom-buttons {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+ 
+}
+.input-container{
+  border: 1px solid black; 
+  /* margin-top: -360px; */
+   height: 85%;
+   width: 32%;
+} 
+input{
+  display: none;
+}
+.mylabel{
+  border: 1px solid black;
+  padding: 5px 10px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px 50px auto;
+  margin-bottom: 30px;
+}
+table{
+  margin: 10px 20px;
+  width: 90%;
+}
+ 
+.aa{
+  text-align: center;
+  
+}
